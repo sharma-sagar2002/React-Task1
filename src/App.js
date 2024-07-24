@@ -2,11 +2,12 @@
 import { useForm } from 'react-hook-form';
 import './App.css';
 import Form from './Components/Form';
-import CustomHookForm from './Components/SimpleForm';
+import NewForm from './Components/NewForm';
+
+
 
 function App() {
   return (
-    // <CustomHookForm/>
    <Form/>
 )
 }
